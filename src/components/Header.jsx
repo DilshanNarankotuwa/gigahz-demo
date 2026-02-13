@@ -29,10 +29,10 @@ export default function Header() {
             <Link to="/laptops">Laptops</Link>
           </li>
           <li>
-            <a href="/mobiles">Mobiles</a>
+            <Link to="/mobiles">Mobiles</Link>
           </li>
           <li>
-            <a href="/preowned">Pre-Owned</a>
+            <Link to="/preowned">Pre-Owned</Link>
           </li>
           <li className={styles.build}>
             <Link to="/buildmypc">Build My PC</Link>
