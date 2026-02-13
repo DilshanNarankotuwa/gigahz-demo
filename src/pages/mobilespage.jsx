@@ -45,7 +45,7 @@ const FALLBACK_MOBILES = [
     screen: 6.1,
     availability: "pre_order",
     condition: "new",
-    image: "/images/products/mobiles/mobile-2.jpg",
+    image: "/images/products/mobiles/Picture2.png",
   },
 ];
 
@@ -318,7 +318,7 @@ export default function MobilesPage() {
                         <s>{formatLKR(p.oldPrice)}</s>
                       </span>
                     ) : null}
-                    <span className="lp-sold">{p.sold}+ sold</span>
+                  
                   </div>
 
                   <button className="lp-cart" type="button" aria-label="Add to cart">

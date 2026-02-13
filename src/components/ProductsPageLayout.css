@@ -410,7 +410,7 @@
   position: relative;
   border-radius: 14px;
   overflow: hidden;
-  background: rgba(255,255,255,.06);
+  background: rgba(255, 255, 255, 0.184);
   aspect-ratio: 16 / 10;
   justify-content: center;
 }

@@ -40,11 +40,11 @@ const FALLBACK_PREOWNED = [
     condition: "used", // "used" | "refurbished"
     grade: "A", // "A" | "B" | "C"
     availability: "in_stock",
-    image: "/images/products/preowned/pre-1.jpg",
+    image: "/images/products/preowned/Picture1.png",
   },
   {
     id: 2,
-    name: "iPhone 12 (64GB) — Refurbished",
+    name: "iPhone 12 (64GB) Refurbished",
     price: 199000,
     oldPrice: 229000,
     rating: 4.6,
@@ -54,7 +54,7 @@ const FALLBACK_PREOWNED = [
     condition: "refurbished",
     grade: "B",
     availability: "in_stock",
-    image: "/images/products/preowned/pre-2.jpg",
+    image: "/images/products/preowned/Picture2.png",
   },
 ];
 
@@ -329,7 +329,7 @@ export default function PreOwnedPage() {
                         <s>{formatLKR(p.oldPrice)}</s>
                       </span>
                     ) : null}
-                    <span className="lp-sold">{p.sold}+ sold</span>
+                    
                   </div>
 
                   <button className="lp-cart" type="button" aria-label="Add to cart">
