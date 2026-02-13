@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./StrengthSection.module.css";
 
-export default function StrengthSection({
-  imageSrc = "/images/home/vr.jpg", // put your image in /public/images/home/vr.jpg
-}) {
+export default function StrengthSection() {
   return (
     <section className={styles["gh-strength"]} aria-label="GigaHz Strengths">
       <div className={styles["gh-strength__bg"]} aria-hidden="true" />
@@ -112,7 +110,7 @@ export default function StrengthSection({
           
             <img
               className={styles["gh-strength__img"]}
-              src='/src/assets/images/strengthsection/vr.png'
+              src='/images/strengthsection/vr.png'
               alt="Futuristic VR headset visual"
               loading="lazy"
             />
