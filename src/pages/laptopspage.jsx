@@ -224,7 +224,7 @@ export default function LaptopsPage() {
               <p className="lp-kicker">GigaHz Store</p>
               <h1 className="lp-title">Laptops</h1>
               <p className="lp-subtitle">
-                Filter fast. Compare clearly. Find your perfect rig — no clutter.
+                Filter fast. Compare clearly. Find your perfect rig  no clutter.
               </p>
             </div>
 

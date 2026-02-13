@@ -259,7 +259,7 @@ export default function PreOwnedPage() {
       <ProductsPageLayout
         pageClassName="gh-preowned-page"
         title="Pre-Owned"
-        subtitle="Tested. Trusted. Budget-smart picks — clean UI, clean deals."
+        subtitle="Tested. Trusted. Budget-smart picks clean UI, clean deals."
         query={query}
         setQuery={setQuery}
         sortBy={sortBy}
