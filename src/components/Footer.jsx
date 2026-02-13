@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { Link } from "react-router";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -39,10 +40,10 @@ export default function Footer() {
             <div className={styles.linkGroup}>
               <h4 className={styles.title}>Shop</h4>
               <ul className={styles.list}>
-                <li><a href="/laptops">Laptops</a></li>
-                <li><a href="/mobiles">Mobiles</a></li>
-                <li><a href="/pre-owned">Pre-Owned</a></li>
-                <li><a href="/build">Build Your PC</a></li>
+                <li><Link to="/laptops">Laptops</Link></li>
+                <li><Link to="/mobiles">Mobiles</Link></li>
+                <li><Link to="/preowned">Pre-Owned</Link></li>
+                <li><Link to="/buildmypc">Build Your PC</Link></li>
               </ul>
             </div>
 

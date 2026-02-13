@@ -3,6 +3,7 @@ import styles from "./HeroSection.module.css";
 import image1 from "/images/herosection/image1.jpg";
 import image2 from "/images/herosection/image2.jpg";
 import image3 from "/images/herosection/image3.jpg";
+import { Link } from "react-router";
 
 
 export default function HeroSection() {
@@ -83,12 +84,12 @@ export default function HeroSection() {
         <p className={styles.subtitle}>{slides[active].subtitle}</p>
 
         <div className={styles.actions}>
-          <a className={`${styles.btn} ${styles.btnPrimary}`} href="#builder">
+          <Link className={`${styles.btn} ${styles.btnPrimary}`} to="/buildmypc">
             {slides[active].ctaPrimary}
-          </a>
-          <a className={`${styles.btn} ${styles.btnGhost}`} href="#products">
+          </Link>
+          <Link className={`${styles.btn} ${styles.btnGhost}`} to="/products">
             {slides[active].ctaSecondary}
-          </a>
+          </Link>
         </div>
       </div>
 
